@@ -9,7 +9,7 @@ import { getError } from '../utils/error';
 
 export default function LoginScreen() {
   const { data: session } = useSession();
-  const router = useRouter;
+  const router = useRouter();
   const { redirect } = router.query;
 
   useEffect(() => {
