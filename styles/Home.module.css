@@ -134,3 +134,7 @@
   text-decoration: underline;
   font-size: 50px;
 }
+.img {
+  display: flex;
+  justify-content: center;
+}

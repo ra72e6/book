@@ -24,7 +24,7 @@ export default function ProductScreen() {
             src={product.image}
             alt={product.name}
             width={640}
-            height={640}
+            height={900}
             layout="responsive"
           ></Image>
         </div>
@@ -32,13 +32,10 @@ export default function ProductScreen() {
         <div>
           <ul>
             <li>
-              <h1 className="text-lg">{product.name}</h1>
+              <h1 className="text-lg ">{product.name}</h1>
             </li>
             <li>카테고리: {product.category}</li>
             <li>출판사: {product.brand}</li>
-            <li>
-              {product.rating} of {product.numReviews} reviews
-            </li>
           </ul>
         </div>
 
@@ -49,12 +46,7 @@ export default function ProductScreen() {
               <div>{product.price}원</div>
             </div>
 
-            <div className="mb-2 flex justify-between">
-              <div>Status</div>
-              <div>{product.countInStock > 0 ? 'In stock' : 'Unavailable'}</div>
-            </div>
-
-            <button className="primary-button w-full">Add to cart</button>
+            <div className="mb-2 flex justify-between"></div>
           </div>
         </div>
       </div>
