@@ -15,7 +15,7 @@ export default function ProductScreen() {
   return (
     <Layout title={product.name}>
       <div className="py-2">
-        <Link href="/">Back to products</Link>
+        <Link href="/">첫 화면으로 돌아가기</Link>
       </div>
 
       <div className="grid md:grid-cols-4 md:gap-3">
@@ -34,12 +34,11 @@ export default function ProductScreen() {
             <li>
               <h1 className="text-lg">{product.name}</h1>
             </li>
-            <li>Category: {product.category}</li>
-            <li>Brand: {product.brand}</li>
+            <li>카테고리: {product.category}</li>
+            <li>출판사: {product.brand}</li>
             <li>
               {product.rating} of {product.numReviews} reviews
             </li>
-            <li>Description: {product.description}</li>
           </ul>
         </div>
 
@@ -47,7 +46,7 @@ export default function ProductScreen() {
           <div className="card p-5">
             <div className="mb-2 flex justify-between">
               <div>Price</div>
-              <div>${product.price}</div>
+              <div>{product.price}원</div>
             </div>
 
             <div className="mb-2 flex justify-between">

@@ -127,3 +127,10 @@
     filter: invert(1);
   }
 }
+.homeTitle {
+  padding: 0 2rem;
+  color: rgb(243, 118, 139);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+}
