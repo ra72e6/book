@@ -138,3 +138,14 @@
   display: flex;
   justify-content: center;
 }
+.text {
+  padding: 0 2rem;
+  color: palevioletred;
+  text-align: center;
+}
+.texttext {
+  padding: 0 2rem;
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
